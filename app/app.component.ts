@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, HostBinding } from "@angular/core";
 import {
   FormBuilder,
   FormGroup,
@@ -30,6 +30,8 @@ export class AppComponent {
   ];
 
   constructor(private formBuilder: FormBuilder) {}
+
+  @HostBinding('class') class: string += 'aaaaaaaaaa';
 
   ngOnInit() {
     this.createForm();

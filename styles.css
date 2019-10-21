@@ -1,1 +1,12 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+
+.aaaaaaaaaa {
+  display: block;
+  border: 3px solid red;
+}
+
+.bbb {
+  border-color: green;
+}
